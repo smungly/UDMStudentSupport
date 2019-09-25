@@ -1,0 +1,53 @@
+@font-face {
+  font-family: BalsamiqSansRegular;
+  src: url(../fonts/BalsamiqSansRegular.ttf);
+}
+
+@font-face {
+  font-family: BalsamiqSansBold;
+  src: url(../fonts/BalsamiqSansBold.ttf);
+}
+
+body{
+    font-size: 90% !important;
+}
+
+h4{
+	font: 1.5em BalsamiqSansRegular;	
+}
+
+h2{
+	font: 1.5em BalsamiqSansBold; 
+}
+
+h3{
+	font: 1.5em BalsamiqSansRegular; 
+}
+
+footer{
+    position: fixed;
+    float: left;
+    bottom: 0;
+    right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: BalsamiqSansRegular;
+  src: url(../../fonts/BalsamiqSansRegular.ttf);
+}
+
+@font-face {
+  font-family: BalsamiqSansBold;
+  src: url(../../fonts/BalsamiqSansBold.ttf);
+}
+
+h3{
+    font: 1.5em BalsamiqSansRegular; 
+}
+
+h2{
+  font: 1.5em BalsamiqSansBold; 
+}
+
+h4{
+  font: 1.5em BalsamiqSansRegular; 
+}
+
+
+#calendar {
+  max-width: 1000px;
+}
+
+footer{
+    position: fixed;
+    float: left;
+    bottom: 0;
+    right: 10px;
+} 
+
+#err{
+  color: #660000;
+  font-style: italic;
+  font-weight: bold;
+}

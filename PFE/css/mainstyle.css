@@ -1,0 +1,82 @@
+@font-face {
+  font-family: BalsamiqSansRegular;
+  src: url(../fonts/BalsamiqSansRegular.ttf);
+}
+
+@font-face {
+  font-family: BalsamiqSansBold;
+  src: url(../fonts/BalsamiqSansBold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center; 
+  background-color: #f6f3ee !important; 
+  font-size: 90% !important;
+}
+
+h2{
+   font: 20px BalsamiqSansBold; 
+   text-align: center; 
+}
+
+p{
+  font: 13px BalsamiqSansRegular;
+  font-weight: normal;
+}
+
+/* Create two equal columns that floats next to each other */
+.colonne {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ /* background-color:#f6f3ee !important;*/
+}
+
+.top-{
+  margin-top: 10px;
+  margin-right:10px;
+  float:right;
+}
+
+.contain{
+     position: absolute !important;
+     left:535px !important;
+     padding-top: 250px !important;
+     background-color: #f6f3ee !important;
+}
+
+.move-left{
+  float: right;
+}
+
+.move-right{
+  float: left;
+}
+
+footer{
+    position: fixed;
+    float: left;
+    bottom: 0;
+    right: 10px;
+}
+
+/* Clear floats after the columns */
+.rangee:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.contain{
+     width:115px ;
+     position: absolute !important;
+     left:75px !important;
+     padding-top: 210px !important;
+}
+}

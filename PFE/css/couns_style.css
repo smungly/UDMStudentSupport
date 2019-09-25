@@ -1,0 +1,114 @@
+@font-face {
+  font-family: BalsamiqSansRegular;
+  src: url(../fonts/BalsamiqSansRegular.ttf);
+}
+
+@font-face {
+  font-family: BalsamiqSansBold;
+  src: url(../fonts/BalsamiqSansBold.ttf);
+}
+
+body{
+    font-size: 90% !important;
+}
+
+h4{
+	font: 1.5em BalsamiqSansRegular;	
+}
+
+h2{
+	font: 1.5em BalsamiqSansBold; 
+}
+
+h3{
+	font: 1.5em BalsamiqSansRegular; 
+}
+
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #222;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    height: 45px;
+    -webkit-appearance: none;
+    color: #222;
+    font-family: 'Poppins';
+    font-style: normal;
+    src: url("../fonts/poppins/poppins-v5-latin-800.eot");
+    /* IE9 Compat Modes */
+    src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"), url("../fonts/poppins/poppins-v5-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-800.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-800.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-800.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-800.svg#Poppins") format("svg");
+    font-size: 18px;
+    border:1px solid #fff;
+    background:#fff;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"], focus {
+    color: #222;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+footer{
+    position: fixed;
+    float: left;
+    bottom: 0;
+    right: 10px;
+}
+
+.retour{
+	margin-bottom: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  text-decoration: none;
+    color: black;
+}
+
+a:active {
+  text-decoration: none;
+    color: black;
+}
+
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}

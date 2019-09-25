@@ -1,0 +1,63 @@
+@font-face {
+  font-family: BalsamiqSansRegular;
+  src: url(../../fonts/BalsamiqSansRegular.ttf);
+}
+
+@font-face {
+  font-family: BalsamiqSansBold;
+  src: url(../../fonts/BalsamiqSansBold.ttf);
+}
+
+body{
+    font-size: 90% !important;
+}
+
+h3{
+    font: 1.5em BalsamiqSansRegular; 
+}
+
+h2{
+  font: 1.5em BalsamiqSansBold; 
+}
+
+h4{
+  font: 1.5em BalsamiqSansRegular; 
+}
+
+
+#calendar {
+  max-width: 1000px;
+}
+
+footer{
+    position: fixed;
+    float: left;
+    bottom: 0;
+    right: 10px;
+} 
+
+#err{
+  color: #660000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  text-decoration: none;
+    color: black;
+}
+
+a:active {
+  text-decoration: none;
+    color: black;
+}
